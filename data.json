@@ -1,0 +1,282 @@
+{
+    "headers": [
+        "No.",
+        "Student Name",
+        "Grade",
+        "Join Date",
+        "Action"
+    ],
+    "students": [
+        {
+            "userId": 1,
+            "userName": "Alice",
+            "firstName": "Alice",
+            "middleName": "Smith",
+            "lastName": "Johnson",
+            "gender": "Female",
+            "age": 20,
+            "dateOfBirth": "2002-05-10",
+            "grade": "5",
+            "rank": 1,
+            "joinDate": "2022-01-15",
+            "category": "A",
+            "emailId": "alice.johnson@example.com",
+            "mobileNumber": "123-456-7890",
+            "password": "password123",
+            "fatherName": "John Smith",
+            "motherName": "Jane Johnson",
+            "billingDetails": {
+                "billingId": "BILL12345",
+                "name": "Alice Johnson",
+                "lastBillingDate": "2023-12-01",
+                "billingAddress": "123 Main St, Cityville",
+                "emailAddress": "alice.johnson@example.com",
+                "phoneNumber": "123-456-7890"
+            }
+        }, {
+            "userId": 2,
+            "userName": "Bob",
+            "firstName": "Bob",
+            "middleName": "Huen",
+            "lastName": "Marley",
+            "gender": "Male",
+            "age": 22,
+            "dateOfBirth": "2001-08-20",
+            "grade": "4",
+            "rank": 3,
+            "joinDate": "2022-05-20",
+            "category": "B",
+            "emailId": "bob_2001@example.com",
+            "mobileNumber": "098-765-4321",
+            "password": "WorldPeace2021",
+            "fatherName": "Michael Jordan",
+            "motherName": "Sarah Denton",
+            "billingDetails": {
+                "billingId": "BILL67890",
+                "name": "Bob Johnson",
+                "lastBillingDate": "2023-12-01",
+                "billingAddress": "456 Oak Ave, Townsville",
+                "emailAddress": "bob_marley@hotmail.com",
+                "phoneNumber": "086-691-7533"
+            }
+
+        }, {
+            "userId": 3,
+            "userName": "Charlie2002",
+            "firstName": "Charlie",
+            "middleName": "Brown",
+            "lastName": "Maharjan",                        
+            "gender": "Male",
+            "age": 21,  
+            "dateOfBirth": "2002-03-15",
+            "grade": "5",
+            "rank": 2,
+            "joinDate": "2022-03-10",
+            "category": "A",
+            "emailId": "charlie.maharjan@google.com",
+            "mobileNumber": "561-225-9857",
+            "password": "learN2028",
+            "fatherName": "David Maharjan",
+            "motherName": "Lisa Brown",
+            "billingDetails": {
+                "billingId": "BILL11111",
+                "name": "Charlie Maharjan",
+                "lastBillingDate": "2023-12-01",
+                "billingAddress": "789 Pine Rd, Villagetown",
+                "emailAddress": "charlie_brown@icloud.com",
+                "phoneNumber": "080-587-1227"
+            }
+
+        }, {
+            "userId": 4,
+            "userName": "DinaSmith",
+            "firstName": "Diana",
+            "middleName": "Prince",
+            "lastName": "Rooney",
+            "gender": "Female",
+            "age": 19,
+            "dateOfBirth": "2004-11-25",
+            "grade": "4",
+            "rank": 4,
+            "joinDate": "2022-11-18",
+            "category": "B",
+            "emailId": "diana.rooney@yahoo.com",
+            "mobileNumber": "785-648-2975",
+            "password": "Rverse158",
+            "fatherName": "James Bond",
+            "motherName": "Mary Rooney",
+            "billingDetails": {
+                "billingId": "BILL23472",
+                "name": "Diana Rooney",
+                "lastBillingDate": "2023-12-01",
+                "billingAddress": "101 Elm St, Cityville",
+                "emailAddress": "diana.rooney@yahoo.com",
+                "phoneNumber": "785-648-2911"
+            }
+        }, {
+            "userId": 5,
+            "userName": "EthanH",
+            "firstName": "Ethan",
+            "middleName": "Wayne",
+            "lastName": "Carrick",
+            "gender": "Male",
+            "age": 23,
+            "dateOfBirth": "2000-07-30",
+            "grade": "9",
+            "rank": 10,
+            "joinDate": "2022-07-27",
+            "category": "C",
+            "emailId": "ethan_H@google.com",
+            "mobileNumber": "666-005-1889",
+            "password": "reuceSword2",
+            "fatherName": "Michal Carrick",
+            "motherName": "Jane Fox",
+            "billingDetails": {
+                "billingId": "BILL55555",
+                "name": "Ethan Carrick",
+                "lastBillingDate": "2023-08-28",
+                "billingAddress": "555 Maple Dr, Ohio",
+                "emailAddress": "ethan_H@yahoo.com",
+                "phoneNumber": "081-664-0449"
+            }
+
+        }, {
+            "userId": 6,
+            "userName": "FionaG",
+            "firstName": "Fiona",
+            "middleName": "Green",
+            "lastName": "Matheson",
+            "gender": "Female",
+            "age": 20,
+            "dateOfBirth": "2003-02-14",
+            "grade": "1",
+            "rank": 1,
+            "joinDate": "2022-02-01",
+            "category": "A",
+            "emailId": "fiona.g@google.com",
+            "mobileNumber": "985-535-2856",
+            "password": "greenFiona18",
+            "fatherName": "Robert Matheson",
+            "motherName": "Lisa Green",
+            "billingDetails": {
+                "billingId": "BILL66666",
+                "name": "Fiona Matheson",
+                "lastBillingDate": "2023-12-01",
+                "billingAddress": "666 Oak St, Kirtipur",
+                "emailAddress": "fiona.g@google.com",
+                "phoneNumber": "753-984-6324"
+            }
+
+        }, {
+            "userId": 7,
+            "userName": "GeorgeM",
+            "firstName": "George",
+            "middleName": "Miller",
+            "lastName": "Decker",
+            "gender": "Male",
+            "age": 22,
+            "dateOfBirth": "2001-03-22",
+            "grade": "2",
+            "rank": 3,
+            "joinDate": "2022-09-05",
+            "category": "B",
+            "emailId": "george.m@google.com",
+            "mobileNumber": "675-885-7521",
+            "password": "eroM2486L",
+            "fatherName": "William Decker",
+            "motherName": "Bela Miller",
+            "billingDetails": {
+                "billingId": "BILL37467",
+                "name": "George Decker",
+                "lastBillingDate": "2023-12-17",
+                "billingAddress": "777 Chargahre St, Inacho",
+                "emailAddress": "george.decker@icloud.com",
+                "phoneNumber": "988-575-6851"
+            }
+
+        }, {
+            "userId": 8,
+            "userName": "Ramayan",
+            "firstName": "Krishna",
+            "middleName": "Kumar",
+            "lastName": "Yadav",
+            "gender": "Male",
+            "age": 21,
+            "dateOfBirth": "2002-04-03",
+            "grade": "8",
+            "rank": 15,
+            "joinDate": "2022-04-14",
+            "category": "C",
+            "emailId": "krishna.yadav@google.com",
+            "mobileNumber": "882-689-5478",
+            "password": "HsirY4583",
+            "fatherName": "Rajesh Yadav",
+            "motherName": "Priya Kumar",
+            "billingDetails": {
+                "billingId": "BILL68425",
+                "name": "Krishna Yadav",
+                "lastBillingDate": "2023-12-17",
+                "billingAddress": "838 Cedar St, Bharatpur",
+                "emailAddress": "krishna.yadav@google.com",
+                "phoneNumber": "882-689-5478"
+            }
+
+        }, {
+            "userId": 9,
+            "userName": "Moonlight",
+            "firstName": "Chandani",
+            "middleName": "Man",
+            "lastName": "Maharjan",
+            "gender": "Female",
+            "age": 19,
+            "dateOfBirth": "2004-10-20",
+            "grade": "3",
+            "rank": 4,
+            "joinDate": "2022-10-19",
+            "category": "B",
+            "emailId": "chandani.m@google.com",
+            "mobileNumber": "775-895-5223",
+            "password": "Artxe557",
+            "fatherName": "Kamal Maharjan",
+            "motherName": "Maya Maharjan",
+            "billingDetails": {
+                "billingId": "BILL99999",
+                "name": "Chandani Maharjan",
+                "lastBillingDate": "2023-12-01",
+                "billingAddress": "336 Thimi St, Panganagar",
+                "emailAddress": "chandani.m@google.com",
+                "phoneNumber": "775-895-5223"
+            }
+
+
+        }, {
+            "userId": 10,
+            "userName": "Sadima",
+            "firstName": "Sadima",
+            "middleName": "Dangol",
+            "lastName": "Tuladhar",
+            "gender": "Female",
+            "age": 20,
+            "dateOfBirth": "2003-06-15",
+            "grade": "7",
+            "rank": 9,
+            "joinDate": "2022-06-29",
+            "category": "C",
+            "emailId": "sadima.t@google.com",
+            "mobileNumber": "987-364-3548",
+            "password": "erolpxE257",
+            "fatherName": "Ramesh Tuladhar",
+            "motherName": "Sunita Dangol",
+            "billingDetails": {
+                "billingId": "BILL15107",
+                "name": "Sadima Tuladhar",
+                "lastBillingDate": "2023-12-01",
+                "billingAddress": "101 Bhuginda St, Kathmandu",
+                "emailAddress": "maharjan@hotmail.com",
+                "phoneNumber": "987-364-3548"
+            }
+
+        }
+
+    ]
+}
