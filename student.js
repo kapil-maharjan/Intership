@@ -7,7 +7,7 @@ async function loadIntoTable(url, table){
     const students = data.students;
     
     tableHead.innerHTML = `<tr></tr>`;
-    tableBody.innerHTML = "";
+    // tableBody.innerHTML = "";
 
     for(const headerText of headers){
         const headerElement = document.createElement("th");
@@ -46,6 +46,7 @@ function renderTable(students, tableBody){
 }
 
 let sortAscending = true;
+
 function sortByName(students, tableBody){
     students.sort((a, b) => {
         const nameA = `${a.firstName} ${a.middleName} ${a.lastName}`.toLowerCase();
